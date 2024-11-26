@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(@/fonts/raleway-regular.woff2);
+  font-weight: 400;  
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(@/fonts/raleway-black.woff2);
+  font-weight: 900;
+}
+
+/*@font-face {*/
+/*  font-family: merryweather;*/
+/*  src: url(@/fonts/merriweather-regular-italic.woff2);*/
+/*  font-style: italic;*/
+/*}*/
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: raleway;
+  text-align: center;
+}
